@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="error-container">
+    <h2>Error al Cargar las Noticias</h2>
+    <p>Lo sentimos, ha ocurrido un error al intentar cargar las noticias. Revise las API KEYS si ud. es un desarrollador.</p>
+    <button onclick="window.location.reload()" class="retry-button">
+        Intentar Nuevamente
+    </button>
+</div>
+{% endblock %}

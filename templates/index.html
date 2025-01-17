@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="welcome-message" class="welcome-message visible">
+    <h1>ANLOVI</h1>
+    <p class="navigation-instructions" style="color: white; margin-top: 1rem;"><strong>Cada 5 minutos aparecerán noticias nuevas</strong></p>
+    <p class="start-instruction">Presiona la flecha → para comenzar</p>
+</div>
+
+<div class="news-container">
+    <div class="progress-bar">
+        <div class="progress-indicator"></div>
+    </div>
+    {% for article in articles %}
+    <div class="news-item {% if loop.first %}active{% endif %}" tabindex="0">
+        <h1>{{ article.title }}</h1>
+        <p class="publication-date">{{ article.date }}</p>
+        <p class="description">{{ article.description }}</p>
+        <a href="{{ article.link }}" class="article-link" target="_blank">Leer artículo completo</a>
+    </div>
+    {% endfor %}
+</div>
+
+<div id="completion-message" class="completion-message hidden">
+    <h2>¡Has leído todas las noticias!</h2>
+    <p>Cada 5 minutos aparecerán nuevas noticias.</p>
+</div>
+{% endblock %}
