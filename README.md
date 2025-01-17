@@ -1,4 +1,4 @@
-# ANLOVI - Accessible News for LOw Vsion Individuals
+# ANLOVI - Accessible News for LOw Vision Individuals
 
 ![Ejemplo de noticia en ANLOVI](./attached_assets/image_1737117895054.png)
 
@@ -67,8 +67,8 @@ Tanto las webs convencionales como periódicos no contienen material adaptado, y
 
 1. Clonar el repositorio:
    ```bash
-   git clone <url-del-repositorio>
-   cd noticias-accesibles
+   https://github.com/edujbarrios/ANLOVI.git
+   cd ANLOVI
    ```
 
 2. Crear un entorno virtual e instalar dependencias:
@@ -129,20 +129,6 @@ Este proyecto utiliza el feed RSS público de El País como fuente de noticias. 
 
 Las noticias que se muestran, son solo del mismo día y de las horas finales del día anterior, para evitar desinformación y desactualización de las noticias.
 
-
 ## ToDo's:
 
 - Emplear react native para realizar una APP con Android e iOS con la misma funcionalidad. Cualquier contribución es bienvenida. 
-
-
-
-
-
-
-
-
-
-
-
-
-
