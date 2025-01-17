@@ -4,7 +4,7 @@
 
 *Visualización general de la página que muestra una noticia*
 
-Este es un sistema de uso personal diseñado específicamente para personas con baja visión, que muestra noticias de El País en un formato accesible y adaptado que ocupa toda la pantalla, con un tamaño de letra considerable y viisble por cualquier persona sin hacer mucho esfuerzo.
+Este es un sistema de uso personal diseñado específicamente para personas con baja visión, que muestra noticias de El País en un formato accesible y adaptado que ocupa toda la pantalla, con un tamaño de letra considerable y visble por cualquier persona sin hacer mucho esfuerzo.
 
 ## Justificación
 
