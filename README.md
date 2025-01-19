@@ -1,4 +1,4 @@
-# ANLOVI - Accessible News for LOw Vision Individuals
+# ANLOWVI - Accessible News for LOw Vision Individuals
 
 ![Ejemplo de noticia en ANLOVI](./attached_assets/image_1737117895054.png)
 
